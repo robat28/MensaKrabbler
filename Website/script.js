@@ -90,7 +90,6 @@ function activateButton(buttonId) {
   var button = buttons[buttonId-1];
   button.classList.add("active");
     
-  
   activeButtonId = buttonId;
 }
 

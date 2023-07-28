@@ -339,7 +339,7 @@ def run(weekday: Weekday, ShouldReturnDataFrame: bool):
     
     if ShouldReturnDataFrame:
         # change the nam of column 'Name' to datename and date
-        df_recommend = df_recommend.rename(columns={'Name': 'Empfehlungen für ' + weekDayGerman+', '+ dateForOutput})
+        df_recommend = df_recommend.rename(columns={'Name': 'Empfehlungen für ' + weekDayGerman + ', ' + dateForOutput})
         return df_recommend
     else:
         result = ''
